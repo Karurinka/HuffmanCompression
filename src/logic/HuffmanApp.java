@@ -30,7 +30,13 @@ public class HuffmanApp
 
         final HuffmanEncodedResult result = manager.encode(test);
 
-        System.out.println("encoded message =" + result.getEncodedData());
-        System.out.println("original message = " + manager.decode(result));
+        System.out.println("encoded message: " + result.getEncodedData());
+        System.out.println("original message: " + manager.decode(result));
+
+
+        final String achternaam = "Broens";
+        final HuffmanEncodedResult achernaamResult = manager.encode(achternaam);
+        System.out.println("encoded message: " + achernaamResult.getEncodedData());
+        System.out.println("original message: " + manager.decode(achernaamResult));
     }
 }

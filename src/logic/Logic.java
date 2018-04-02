@@ -29,7 +29,6 @@ public class Logic implements ILogic
             if (frequency[i] > 0)
             {
                 nodePriorityQueue.add(new Node(i, frequency[i], null, null));
-
             }
         }
 
@@ -67,8 +66,8 @@ public class Logic implements ILogic
     {
         if (!currentNode.isLeaf())
         {
-            recursiveTableFiller(bitSetHashMap, currentNode.getLeftChild(), code + "0");
-            recursiveTableFiller(bitSetHashMap, currentNode.getRightChild(), code + "1");
+            recursiveTableFiller(bitSetHashMap, currentNode.getLeftChild(), code + "1");
+            recursiveTableFiller(bitSetHashMap, currentNode.getRightChild(), code + "0");
         }
         else
         {
@@ -131,11 +130,11 @@ public class Logic implements ILogic
             while (!current.isLeaf())
             {
                 char bit = result.getEncodedData().charAt(i);
-                if (bit == '1')
+                if (bit == '0')
                 {
                     current = current.getRightChild();
                 }
-                else if (bit == '0')
+                else if (bit == '1')
                 {
                     current = current.getLeftChild();
                 }
