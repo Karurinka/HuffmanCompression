@@ -89,7 +89,7 @@ public class Logic implements ILogic
     }
 
     /**
-     * builds a frequency table for every word in the data
+     * builds a frequency table for every letter in the data
      * builds a huffman tree for all the characters in the data
      * this huffman tree returns one node that contains all of the other nodes
      * this root node is then set into a lookup table where the characters are bound to a binary nummber
@@ -128,7 +128,6 @@ public class Logic implements ILogic
 
         while (i < result.getEncodedData().length())
         {
-            //
             while (!current.isLeaf())
             {
                 char bit = result.getEncodedData().charAt(i);

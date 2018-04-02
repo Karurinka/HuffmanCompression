@@ -28,9 +28,9 @@ public class HuffmanApp
                 "Een, twee, drie, vier\n" +
                 "Hoedje van papier";
 
-        final HuffmanEncodedResult result = manager.compress(test);
+        final HuffmanEncodedResult result = manager.encode(test);
 
         System.out.println("encoded message =" + result.getEncodedData());
-        System.out.println("original message = " + manager.decompress(result));
+        System.out.println("original message = " + manager.decode(result));
     }
 }

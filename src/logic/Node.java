@@ -49,10 +49,10 @@ public class Node implements Comparable<Node>
     @Override
     public int compareTo(Node other)
     {
-        int frequencyComparer = Integer.compare(this.frequency, other.frequency);
-        if (frequencyComparer != 0)
+        int frequency = Integer.compare(this.frequency, other.frequency);
+        if (frequency != 0)
         {
-            return frequencyComparer;
+            return frequency;
         }
 
         return Integer.compare(this.character, other.character);

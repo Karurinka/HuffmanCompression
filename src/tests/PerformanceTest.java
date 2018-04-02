@@ -31,14 +31,14 @@ public class PerformanceTest
     {
         // performance test encode with 10k words
         long startTime10k = System.nanoTime();
-        manager.compress(stringPerformance10k);
+        manager.encode(stringPerformance10k);
         long resultTime10k = System.nanoTime() - startTime10k;
         String logMessage10k = String.format("encode message 10k words - time measured: %d nanoseconds", resultTime10k);
         logger.log(Level.INFO, logMessage10k);
 
         // performance test encode with 1mil words
         long startTime1mil = System.nanoTime();
-        manager.compress(stringPerformance1mil);
+        manager.encode(stringPerformance1mil);
         long resultTime1mil = System.nanoTime() - startTime1mil;
         String logMessage1mil = String.format("encode message 1mil words- time measured: %d nanoseconds", resultTime1mil);
         logger.log(Level.INFO, logMessage1mil);
@@ -49,14 +49,14 @@ public class PerformanceTest
     {
         // performance test encode with 10k words
         long startTime10k = System.nanoTime();
-        manager.decompress(manager.compress(stringPerformance10k));
+        manager.decode(manager.encode(stringPerformance10k));
         long resultTime10k = System.nanoTime() - startTime10k;
         String logMessage10k = String.format("decode message 10k words - time measured: %d nanoseconds", resultTime10k);
         logger.log(Level.INFO, logMessage10k);
 
         // performance test encode with 1mil words
         long startTime1mil = System.nanoTime();
-        manager.decompress(manager.compress(stringPerformance1mil));
+        manager.decode(manager.encode(stringPerformance1mil));
         long resultTime1mil = System.nanoTime() - startTime1mil;
         String logMessage1mil = String.format("decode message 1mil words- time measured: %d nanoseconds", resultTime1mil);
         logger.log(Level.INFO, logMessage1mil);
