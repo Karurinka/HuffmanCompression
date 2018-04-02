@@ -36,9 +36,9 @@ public class HuffmanManager implements ILogic
     }
 
     @Override
-    public Map<Character, String> buildLookupTable(Node root)
+    public Map<Character, String> buildBitCodeLookupTable(Node root)
     {
-        return logic.buildLookupTable(root);
+        return logic.buildBitCodeLookupTable(root);
     }
 
     @Override

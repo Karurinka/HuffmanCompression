@@ -56,27 +56,23 @@ public class Logic implements ILogic
         return nodePriorityQueue.poll();
     }
 
-    // bind characters to a binary number
-    public Map<Character, String> buildLookupTable(Node root)
+    public Map<Character, String> buildBitCodeLookupTable(Node root)
     {
-        Map<Character, String> lookupTable = new HashMap<>();
-        addToLookupTable(root, "", lookupTable);
-
-        return lookupTable;
+        HashMap<Character, String> bitSetHashMap = new HashMap<>();
+        recursiveTableFiller(bitSetHashMap, root, "");
+        return bitSetHashMap;
     }
 
-    public void addToLookupTable(Node node, String s, Map<Character, String> lookupTable)
+    private void recursiveTableFiller(HashMap<Character, String> bitSetHashMap, Node currentNode, String code)
     {
-        // if the node is not a leaf
-        // add the left and right child to the lookup table
-        if (!node.isLeaf())
+        if (!currentNode.isLeaf())
         {
-            addToLookupTable(node.getLeftChild(), s + '0', lookupTable);
-            addToLookupTable(node.getRightChild(), s + '1', lookupTable);
+            recursiveTableFiller(bitSetHashMap, currentNode.getLeftChild(), code + "0");
+            recursiveTableFiller(bitSetHashMap, currentNode.getRightChild(), code + "1");
         }
         else
         {
-            lookupTable.put(node.getCharacter(), s);
+            bitSetHashMap.put(currentNode.getCharacter(), code);
         }
     }
 
@@ -92,6 +88,15 @@ public class Logic implements ILogic
         return stringBuilder.toString();
     }
 
+    /**
+     * builds a frequency table for every word in the data
+     * builds a huffman tree for all the characters in the data
+     * this huffman tree returns one node that contains all of the other nodes
+     * this root node is then set into a lookup table where the characters are bound to a binary nummber
+     *
+     * @param data
+     * @return
+     */
     @Override
     public HuffmanEncodedResult compress(String data)
     {
@@ -99,7 +104,7 @@ public class Logic implements ILogic
         final int[] frequency = buildFrequencyTable(data);
         Node root = buildHuffmanTree(frequency);
         // build the lookup table from the root node
-        Map<Character, String> lookupTable = buildLookupTable(root);
+        Map<Character, String> lookupTable = buildBitCodeLookupTable(root);
 
         return new HuffmanEncodedResult(generateEncodedData(data, lookupTable), root);
     }
@@ -108,6 +113,7 @@ public class Logic implements ILogic
      * for each bit go down to the leaf
      * in order to determine where that portion of the message starts and ends
      * start at the root and go down to the leaf for each character in the message
+     *
      * @param result is the result of going down the whole tree
      * @return the string builder to string
      * @throws IllegalAccessException when bit is not 1 or 0
