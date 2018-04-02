@@ -18,15 +18,15 @@ public class HuffmanManager implements ILogic
     }
 
     @Override
-    public HuffmanEncodedResult compress(String data)
+    public HuffmanEncodedResult encode(String data)
     {
-        return logic.compress(data);
+        return logic.encode(data);
     }
 
     @Override
-    public String decompress(HuffmanEncodedResult result) throws IllegalAccessException
+    public String decode(HuffmanEncodedResult result) throws IllegalAccessException
     {
-        return logic.decompress(result);
+        return logic.decode(result);
     }
 
     @Override

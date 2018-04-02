@@ -1,44 +1,21 @@
 package tests;
 
+import org.junit.Test;
+
 public class LogicTest
 {
 
-    @org.junit.Before
+    @Test
     public void setUp() throws Exception
     {
     }
 
-    @org.junit.Test
-    public void buildFrequencyTable()
-    {
-    }
-
-    @org.junit.Test
-    public void buildHuffmanTree()
-    {
-    }
-
-    @org.junit.Test
-    public void buildLookupTable()
-    {
-    }
-
-    @org.junit.Test
-    public void addToLookupTable()
-    {
-    }
-
-    @org.junit.Test
-    public void generateEncodedData()
-    {
-    }
-
-    @org.junit.Test
+    @Test
     public void compress()
     {
     }
 
-    @org.junit.Test
+    @Test
     public void decompress()
     {
     }

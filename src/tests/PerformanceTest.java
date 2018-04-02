@@ -1,6 +1,5 @@
 package tests;
 
-import logic.HuffmanEncodedResult;
 import logic.HuffmanManager;
 import logic.Logic;
 import org.junit.Before;

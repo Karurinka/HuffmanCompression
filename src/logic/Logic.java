@@ -98,7 +98,7 @@ public class Logic implements ILogic
      * @return
      */
     @Override
-    public HuffmanEncodedResult compress(String data)
+    public HuffmanEncodedResult encode(String data)
     {
         // build the table with the frequency of the characters
         final int[] frequency = buildFrequencyTable(data);
@@ -119,7 +119,7 @@ public class Logic implements ILogic
      * @throws IllegalAccessException when bit is not 1 or 0
      */
     @Override
-    public String decompress(HuffmanEncodedResult result) throws IllegalAccessException
+    public String decode(HuffmanEncodedResult result) throws IllegalAccessException
     {
         StringBuilder stringBuilder = new StringBuilder();
 
