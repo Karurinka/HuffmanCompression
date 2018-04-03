@@ -1,8 +1,8 @@
 package logic;
 
-import java.util.Comparator;
+import java.io.Serializable;
 
-public class Node implements Comparable<Node>
+public class Node implements Comparable<Node>, Serializable
 {
     // fields
     private char character;

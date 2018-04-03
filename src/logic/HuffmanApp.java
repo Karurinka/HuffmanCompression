@@ -1,10 +1,12 @@
 package logic;
 
+import java.io.File;
+
 public class HuffmanApp
 {
     public static void main(String[] args) throws Exception
     {
-        HuffmanManager manager = new HuffmanManager(new Logic());
+        HuffmanManager manager = new HuffmanManager();
 
         final String test =
         "Besten,\n" +
@@ -20,16 +22,11 @@ public class HuffmanApp
         "\n" + "-als bewijs van dit bericht aandachtig gelezen te hebben geef index van de chars in dit announcements die nodig zijn om jouw achternaam te spellen. Neem dit ook mee naar de feedback sessie.\n" +
         "\n" + " 3 april 12:30-16:30 ik zal in de open ruimte op 2de verdiep zitten (english stream). pas op er zijn twee klassen die aftekenen dus wacht niet te lang.";
 
-        final HuffmanEncodedResult result = manager.encode(test);
+        manager.encode(test, new File("HuffmanTest"));
+        String output = manager.decode(new File("HuffmanTest"));
+        System.out.println(output);
 
-        System.out.println("encoded message: " + result.getEncodedData());
-        System.out.println("original message: " + manager.decode(result));
-
-//        B: 111000011
-//        R: 01111
-//        O: 1111
-//        E: 001
-//        N: 0101
-//        S: 01110
+//        0 23 57 1 5 2
+//        B r   o e n s
     }
 }

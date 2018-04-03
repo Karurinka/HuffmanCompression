@@ -1,9 +1,12 @@
 package logic;
 
-public class HuffmanEncodedResult
+import java.io.Serializable;
+import java.util.BitSet;
+
+public class HuffmanEncodedResult implements Serializable
 {
     // fields
-    private String encodedData;
+    private BitSet encodedData;
     private Node root;
 
     // getters
@@ -12,13 +15,13 @@ public class HuffmanEncodedResult
         return root;
     }
 
-    public String getEncodedData()
+    public BitSet getEncodedData()
     {
         return encodedData;
     }
 
     // constructor
-    public HuffmanEncodedResult(String encodedData, Node root)
+    public HuffmanEncodedResult(BitSet encodedData, Node root)
     {
         this.encodedData = encodedData;
         this.root = root;

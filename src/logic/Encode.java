@@ -1,10 +1,15 @@
 package logic;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.BitSet;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class Logic implements ILogic
+public class Encode implements IEncode
 {
     private static final int ALPHABET_SIZE = 256;
 
@@ -55,19 +60,19 @@ public class Logic implements ILogic
         return nodePriorityQueue.poll();
     }
 
-    public Map<Character, String> buildBitCodeLookupTable(Node root)
+    public Map<Character, String> bitLookupTable(Node root)
     {
         HashMap<Character, String> bitSetHashMap = new HashMap<>();
-        recursiveTableFiller(bitSetHashMap, root, "");
+        addToLookupTable(bitSetHashMap, root, "");
         return bitSetHashMap;
     }
 
-    private void recursiveTableFiller(HashMap<Character, String> bitSetHashMap, Node currentNode, String code)
+    private void addToLookupTable(HashMap<Character, String> bitSetHashMap, Node currentNode, String code)
     {
         if (!currentNode.isLeaf())
         {
-            recursiveTableFiller(bitSetHashMap, currentNode.getLeftChild(), code + "1");
-            recursiveTableFiller(bitSetHashMap, currentNode.getRightChild(), code + "0");
+            addToLookupTable(bitSetHashMap, currentNode.getLeftChild(), code + "1");
+            addToLookupTable(bitSetHashMap, currentNode.getRightChild(), code + "0");
         }
         else
         {
@@ -75,79 +80,54 @@ public class Logic implements ILogic
         }
     }
 
-    public String generateEncodedData(String data, Map<Character, String> lookupTable)
+    public BitSet generateEncodedData(String data, Map<Character, String> lookupTable)
     {
-        StringBuilder stringBuilder = new StringBuilder();
+        BitSet bitSet = new BitSet();
+        int index = 0;
 
         for (char c : data.toCharArray())
         {
-            stringBuilder.append(lookupTable.get(c));
+            String character = lookupTable.get(c);
+            for (char lookupCharacter : character.toCharArray())
+            {
+                if (lookupCharacter == '1')
+                {
+                    bitSet.set(index);
+                }
+                index++;
+            }
 
         }
-        return stringBuilder.toString();
+        bitSet.set(index);
+        return bitSet;
     }
 
     /**
      * builds a frequency table for every letter in the data
      * builds a huffman tree for all the characters in the data
      * this huffman tree returns one node that contains all of the other nodes
-     * this root node is then set into a lookup table where the characters are bound to a binary nummber
+     * this root node is then set into a lookup table where the characters are bound to a binary number
      *
      * @param data
      * @return
      */
-    @Override
-    public HuffmanEncodedResult encode(String data)
+    public void encode(String data, File fileLocation) throws IOException
     {
         // build the table with the frequency of the characters
         final int[] frequency = buildFrequencyTable(data);
         Node root = buildHuffmanTree(frequency);
         // build the lookup table from the root node
-        Map<Character, String> lookupTable = buildBitCodeLookupTable(root);
+        Map<Character, String> lookupTable = bitLookupTable(root);
+        HuffmanEncodedResult result = new HuffmanEncodedResult(generateEncodedData(data, lookupTable), root);
 
-        return new HuffmanEncodedResult(generateEncodedData(data, lookupTable), root);
+        writeToFile(result, fileLocation);
     }
 
-    /**
-     * for each bit go down to the leaf
-     * in order to determine where that portion of the message starts and ends
-     * start at the root and go down to the leaf for each character in the message
-     *
-     * @param result is the result of going down the whole tree
-     * @return the string builder to string
-     * @throws IllegalAccessException when bit is not 1 or 0
-     */
-    @Override
-    public String decode(HuffmanEncodedResult result) throws IllegalAccessException
+    public void writeToFile(HuffmanEncodedResult result, File file) throws IOException
     {
-        StringBuilder stringBuilder = new StringBuilder();
-
-        Node current = result.getRoot();
-        int i = 0;
-
-        while (i < result.getEncodedData().length())
+        try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(file)))
         {
-            while (!current.isLeaf())
-            {
-                char bit = result.getEncodedData().charAt(i);
-                if (bit == '0')
-                {
-                    current = current.getRightChild();
-                }
-                else if (bit == '1')
-                {
-                    current = current.getLeftChild();
-                }
-                else
-                {
-                    throw new IllegalAccessException("Invalid bit: " + bit);
-                }
-                i++;
-            }
-            stringBuilder.append(current.getCharacter());
-            current = result.getRoot();
+            objectOutputStream.writeObject(result);
         }
-
-        return stringBuilder.toString();
     }
 }

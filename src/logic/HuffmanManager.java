@@ -1,49 +1,72 @@
 package logic;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.BitSet;
 import java.util.Map;
 
-public class HuffmanManager implements ILogic
+public class HuffmanManager implements IDecode, IEncode
 {
-    private Logic logic;
+    private Decode decode;
+    private Encode encode;
 
-    public HuffmanManager(Logic logic)
+    public HuffmanManager()
     {
-        this.logic = new Logic();
+        this.decode = new Decode();
+        this.encode = new Encode();
     }
 
     @Override
     public int[] buildFrequencyTable(String data)
     {
-        return logic.buildFrequencyTable(data);
+        return encode.buildFrequencyTable(data);
     }
 
     @Override
-    public HuffmanEncodedResult encode(String data)
+    public void encode(String data, File fileLocation)
     {
-        return logic.encode(data);
+        if (!fileLocation.exists())
+        {
+            try
+            {
+                fileLocation.createNewFile();
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+            return;
+
+        }
+        try
+        {
+            encode.encode(data, fileLocation);
+        } catch (IOException e)
+        {
+            e.printStackTrace();
+        }
     }
 
     @Override
-    public String decode(HuffmanEncodedResult result) throws IllegalAccessException
+    public String decode(File fileName) throws IOException
     {
-        return logic.decode(result);
+        return decode.decode(fileName);
     }
 
     @Override
     public Node buildHuffmanTree(int[] frequency)
     {
-        return logic.buildHuffmanTree(frequency);
+        return encode.buildHuffmanTree(frequency);
     }
 
     @Override
-    public Map<Character, String> buildBitCodeLookupTable(Node root)
+    public BitSet generateEncodedData(String data, Map<Character, String> lookupTable)
     {
-        return logic.buildBitCodeLookupTable(root);
+        return encode.generateEncodedData(data, lookupTable);
     }
 
     @Override
-    public String generateEncodedData(String data, Map<Character, String> lookupTable)
+    public Map<Character, String> bitLookupTable(Node root)
     {
-        return logic.generateEncodedData(data, lookupTable);
+        return encode.bitLookupTable(root);
     }
 }
