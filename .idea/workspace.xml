@@ -2,37 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1165954c-f6cd-428c-9009-15850a7e6e73" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logic/Decode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logic/Encode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logic/IDecode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logic/IEncode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tests/EncodeAndDecodeTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f82208faef0ab4d34feaac1cae173c06eab2869" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52dd1c65ad53de66b0d9792427cd69e76922f32a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5db5daaa3c07aa309cf1d3af53e50bf77e1f0d2e" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86aa77f18676784599f4052ad75467d46ff6d802" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87c53af35db1861132c524dec59d795d4c63189d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8441c37f8a6138dd166e82928b5f9d64de453ee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bcb734a556ad1f05c163f32a166891a5b99933fa" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb24f40766ec8e77720be9b567f640ded14fc8dc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/HuffmanCompression.iml" afterPath="$PROJECT_DIR$/HuffmanCompression.iml" />
+      <change beforePath="$PROJECT_DIR$/Performance10k" afterPath="$PROJECT_DIR$/Performance10k" />
+      <change beforePath="$PROJECT_DIR$/Performance1mil" afterPath="$PROJECT_DIR$/Performance1mil" />
       <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/HuffmanApp.class" afterPath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/HuffmanApp.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/HuffmanEncodedResult.class" afterPath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/HuffmanEncodedResult.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/HuffmanManager.class" afterPath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/HuffmanManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/ILogic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/Logic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/Node.class" afterPath="$PROJECT_DIR$/out/production/HuffmanCompression/logic/Node.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/tests/LogicTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/tests/PerformanceTest.class" afterPath="$PROJECT_DIR$/out/production/HuffmanCompression/tests/PerformanceTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/tests/EncodeAndDecodeTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/HuffmanCompression/tests/PerformanceTest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/logic/HuffmanApp.java" afterPath="$PROJECT_DIR$/src/logic/HuffmanApp.java" />
-      <change beforePath="$PROJECT_DIR$/src/logic/HuffmanEncodedResult.java" afterPath="$PROJECT_DIR$/src/logic/HuffmanEncodedResult.java" />
-      <change beforePath="$PROJECT_DIR$/src/logic/HuffmanManager.java" afterPath="$PROJECT_DIR$/src/logic/HuffmanManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/logic/ILogic.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/logic/Logic.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/logic/Node.java" afterPath="$PROJECT_DIR$/src/logic/Node.java" />
-      <change beforePath="$PROJECT_DIR$/src/tests/LogicTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/tests/PerformanceTest.java" afterPath="$PROJECT_DIR$/src/tests/PerformanceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/tests/EncodeAndDecodeTest.java" afterPath="$PROJECT_DIR$/Tests/Unittests/EncodeAndDecodeTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/tests/PerformanceTest.java" afterPath="$PROJECT_DIR$/Tests/PerformanceTests/PerformanceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,23 +29,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="EncodeAndDecodeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/EncodeAndDecodeTest.java">
+        <entry file="file://$PROJECT_DIR$/Tests/Unittests/EncodeAndDecodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
+            <state relative-caret-position="1104">
               <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PerformanceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/PerformanceTests/PerformanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Decode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logic/Decode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Encode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logic/Encode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
+            <state relative-caret-position="4">
               <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,6 +83,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -117,10 +117,12 @@
         <option value="$PROJECT_DIR$/src/logic/HuffmanManager.java" />
         <option value="$PROJECT_DIR$/src/logic/HuffmanEncodedResult.java" />
         <option value="$PROJECT_DIR$/src/logic/Node.java" />
-        <option value="$PROJECT_DIR$/src/logic/Decode.java" />
         <option value="$PROJECT_DIR$/src/tests/DecodeTest.java" />
         <option value="$PROJECT_DIR$/src/logic/HuffmanApp.java" />
         <option value="$PROJECT_DIR$/src/tests/EncodeAndDecodeTest.java" />
+        <option value="$PROJECT_DIR$/src/logic/Decode.java" />
+        <option value="$PROJECT_DIR$/Tests/Unittests/EncodeAndDecodeTest.java" />
+        <option value="$PROJECT_DIR$/Tests/PerformanceTests/PerformanceTest.java" />
       </list>
     </option>
   </component>
@@ -131,8 +133,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="-7" />
+    <option name="width" value="1132" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
@@ -171,14 +173,19 @@
             <path>
               <item name="HuffmanCompressionApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="HuffmanCompression" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HuffmanCompressionApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="HuffmanCompression" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="PerformanceTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HuffmanCompressionApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HuffmanCompression" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Unittests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,11 +207,15 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="logic" />
       <recent name="tests" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -230,6 +241,25 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="HuffmanApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="logic.HuffmanApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HuffmanCompression" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -247,15 +277,15 @@
     <configuration name="EncodeAndDecodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="PerformanceTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="HuffmanCompression" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.EncodeAndDecodeTest" />
+      <option name="PACKAGE_NAME" value="Unittests" />
+      <option name="MAIN_CLASS_NAME" value="Unittests.EncodeAndDecodeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -272,15 +302,15 @@
     <configuration name="EncodeAndDecodeTest.decode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="PerformanceTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="HuffmanCompression" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.EncodeAndDecodeTest" />
+      <option name="PACKAGE_NAME" value="Unittests" />
+      <option name="MAIN_CLASS_NAME" value="Unittests.EncodeAndDecodeTest" />
       <option name="METHOD_NAME" value="decode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -297,15 +327,15 @@
     <configuration name="EncodeAndDecodeTest.encode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="PerformanceTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="HuffmanCompression" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.EncodeAndDecodeTest" />
+      <option name="PACKAGE_NAME" value="Unittests" />
+      <option name="MAIN_CLASS_NAME" value="Unittests.EncodeAndDecodeTest" />
       <option name="METHOD_NAME" value="encode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -322,42 +352,17 @@
     <configuration name="PerformanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="PerformanceTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="HuffmanCompression" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PerformanceTest" />
+      <option name="PACKAGE_NAME" value="PerformanceTests" />
+      <option name="MAIN_CLASS_NAME" value="PerformanceTests.PerformanceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PerformanceTest.decompressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="HuffmanCompression" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PerformanceTest" />
-      <option name="METHOD_NAME" value="decompressTest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -432,17 +437,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest.decode" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PerformanceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PerformanceTest.decompressTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest.encode" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest.encode" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HuffmanApp" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PerformanceTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest.decode" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest.encode" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PerformanceTest.decompressTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HuffmanApp" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest.decode" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EncodeAndDecodeTest.encode" />
       </list>
     </recent_temporary>
   </component>
@@ -462,25 +467,19 @@
       <workItem from="1520338272348" duration="4811000" />
       <workItem from="1521546460938" duration="1679000" />
       <workItem from="1522668687981" duration="18759000" />
-      <workItem from="1522743119493" duration="5987000" />
+      <workItem from="1522743119493" duration="6814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EncodeAndDecodeTest - 2018.04.03 at 11h 44m 48s.xml">
-      <configuration name="EncodeAndDecodeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EncodeAndDecodeTest - 2018.04.03 at 11h 51m 25s.xml">
       <configuration name="EncodeAndDecodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncodeAndDecodeTest_decode - 2018.04.03 at 11h 47m 12s.xml">
-      <configuration name="EncodeAndDecodeTest.decode" configurationId="JUnit" />
+    <history-entry file="EncodeAndDecodeTest - 2018.04.03 at 12h 04m 36s.xml">
+      <configuration name="EncodeAndDecodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncodeAndDecodeTest_decode - 2018.04.03 at 11h 47m 53s.xml">
-      <configuration name="EncodeAndDecodeTest.decode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncodeAndDecodeTest_decode - 2018.04.03 at 11h 48m 05s.xml">
-      <configuration name="EncodeAndDecodeTest.decode" configurationId="JUnit" />
+    <history-entry file="EncodeAndDecodeTest - 2018.04.03 at 12h 05m 32s.xml">
+      <configuration name="EncodeAndDecodeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EncodeAndDecodeTest_decode - 2018.04.03 at 11h 49m 18s.xml">
       <configuration name="EncodeAndDecodeTest.decode" configurationId="JUnit" />
@@ -491,19 +490,24 @@
     <history-entry file="EncodeAndDecodeTest_decode - 2018.04.03 at 11h 51m 17s.xml">
       <configuration name="EncodeAndDecodeTest.decode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EncodeAndDecodeTest_encode - 2018.04.03 at 11h 47m 08s.xml">
-      <configuration name="EncodeAndDecodeTest.encode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PerformanceTest - 2018.04.03 at 11h 51m 38s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PerformanceTest - 2018.04.03 at 12h 03m 51s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PerformanceTest - 2018.04.03 at 12h 04m 42s.xml">
+      <configuration name="PerformanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PerformanceTest - 2018.04.03 at 12h 05m 37s.xml">
       <configuration name="PerformanceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31236000" />
+    <option name="totallyTimeSpent" value="32063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -513,21 +517,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3936928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3936928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -595,9 +599,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="976">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -606,16 +608,16 @@
         <state relative-caret-position="64">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -633,16 +635,16 @@
         <state relative-caret-position="400">
           <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
           <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -658,15 +660,15 @@
     <entry file="file://$PROJECT_DIR$/src/logic/NodeComparator.java" />
     <entry file="file://$PROJECT_DIR$/src/logic/Decoder.java" />
     <entry file="file://$PROJECT_DIR$/src/logic/Encoder.java" />
-    <entry file="file://$PROJECT_DIR$/src/tests/EncodeAndDecodeTest.java">
+    <entry file="file://$PROJECT_DIR$/Tests/Unittests/EncodeAndDecodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="false" />
-            <element signature="e#2041#2042#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="false" />
+            <element signature="e#2045#2046#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,7 +704,7 @@
         <state relative-caret-position="160">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="67" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -712,11 +714,11 @@
         <state relative-caret-position="80">
           <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#246#247#0" expanded="false" />
+            <element signature="e#273#274#0" expanded="false" />
+            <element signature="e#315#316#0" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,16 +728,16 @@
         <state relative-caret-position="32">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -748,26 +750,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/Decode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/HuffmanManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1149#1150#0" expanded="false" />
+            <element signature="e#1206#1207#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1513#1514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,14 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/PerformanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -804,25 +788,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/EncodeAndDecodeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/logic/Decode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="372">
+          <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/Encode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="4">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Unittests/EncodeAndDecodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/PerformanceTests/PerformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

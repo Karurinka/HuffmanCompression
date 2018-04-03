@@ -1,8 +1,6 @@
-package tests;
+package PerformanceTests;
 
-import logic.Encode;
 import logic.HuffmanManager;
-import logic.Decode;
 import org.junit.Before;
 import org.junit.Test;
 

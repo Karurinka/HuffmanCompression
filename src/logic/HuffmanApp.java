@@ -17,7 +17,7 @@ public class HuffmanApp
         "\n" + "Ik wil even lief doen (extra afteken moment) met als tegen prestatie van jullie dat jullie echt voorbereid komen:\n" +
         "\n" + "-dubbelcheck (opgave(n) aandachtig lezen!) dat je de gevraagde stukken ook in jouw oplossing hebt staan. Uitgewerkte oplossing dus.\n" +
         "\n" + "-vroeg naar per review van jouw collega en vraag actief wat voor feedback dat ze hadden gekregen , verwerk hun feedback in jouw oplossing en wees voorbereid. als bewijs breng mee de genoteerde feedback die je had gekregen.\n" +
-        "\n" + "-geen echte unit en/of performance tests == kijk ik niet naar de rest van je code (je hoeft dus niet te komen en ik zie je bij de herkansing).\n" +
+        "\n" + "-geen echte unit en/of performance Unittests == kijk ik niet naar de rest van je code (je hoeft dus niet te komen en ik zie je bij de herkansing).\n" +
         "\n" + "-je moet kunnen uitleggen hoe hash map en tree werken en waarom ze de bepaalde Big(o) hebben per operatie bv. hoe efficiënt is een nieuwe element toevoegen en hoe gebeurt het (stappen uitleggen)\n" +
         "\n" + "-als bewijs van dit bericht aandachtig gelezen te hebben geef index van de chars in dit announcements die nodig zijn om jouw achternaam te spellen. Neem dit ook mee naar de feedback sessie.\n" +
         "\n" + " 3 april 12:30-16:30 ik zal in de open ruimte op 2de verdiep zitten (english stream). pas op er zijn twee klassen die aftekenen dus wacht niet te lang.";

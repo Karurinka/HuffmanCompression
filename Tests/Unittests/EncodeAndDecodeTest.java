@@ -1,4 +1,4 @@
-package tests;
+package Unittests;
 
 import logic.HuffmanManager;
 import org.junit.Before;
